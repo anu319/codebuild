@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Building from GitHub source"
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
